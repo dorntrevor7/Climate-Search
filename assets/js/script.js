@@ -20,3 +20,16 @@ fetch(
     const humid = data.main.humidity;
     console.log(name, temp.toFixed(2), wind, humid);
   });
+
+fetch(
+  "https://api.openweathermap.org/data/2.5/forecast?q=tempe&cnt=5&appid=09335e290f36cab7997b39556d93e753",
+  {
+    method: "GET",
+  }
+)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data);
+  });
