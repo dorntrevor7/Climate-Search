@@ -1,0 +1,71 @@
+/* Body Styling */
+body {
+    font-family:cursive;
+}
+
+/* Header styling */
+header {
+    background-color:dodgerblue;
+    color: white;
+    padding: 15px 0px ;
+    width: 100%;
+}
+header.row {
+    margin: 0;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 0;
+}
+
+/* Heading Text Styles */
+h2{
+    margin: 15px;
+    padding: 10px;
+}
+h3{
+    margin: 15px;
+    padding: 10px;
+}
+h5{
+    margin: 15px;
+    padding: 10px;
+}
+h6{
+    margin: 15px;
+    padding: 10px;
+}
+
+/* input styling */
+#searchInput {
+    padding: 10px
+}
+
+/* styleing for the main section */
+main {
+    height: 100vh;
+}
+
+/* Section styling */
+section div input {
+    margin: 0px;
+    padding: 0px;
+}
+section.col-3 div {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.col-3 {
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+}
+section.col-9 section.row {
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    margin: 15px;
+}
+section .col-3{
+    padding: 0
+}
