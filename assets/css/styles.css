@@ -28,17 +28,24 @@ section.row h3{
     padding: 10px;
 }
 section.row h5{
-    margin: 15px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
 }
 section.row h6{
-    margin: 15px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
 }
 
 /* input styling */
 #searchInput {
     padding: 10px;
+    border-radius: 5px;
+}
+
+.forecastDay {
+    background-color: dodgerblue;
+    color: white;
+    margin: 10px;
     border-radius: 5px;
 }
 
