@@ -19,26 +19,27 @@ header h1 {
 }
 
 /* Heading Text Styles */
-h2{
+section.row h2{
     margin: 15px;
     padding: 10px;
 }
-h3{
+section.row h3{
     margin: 15px;
     padding: 10px;
 }
-h5{
+section.row h5{
     margin: 15px;
     padding: 10px;
 }
-h6{
+section.row h6{
     margin: 15px;
     padding: 10px;
 }
 
 /* input styling */
 #searchInput {
-    padding: 10px
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* styleing for the main section */
@@ -58,8 +59,12 @@ section.col-3 div {
     justify-content: center;
 }
 section.col-3 {
-    border: 1px solid dodgerblue;
+    border-right: 3px dashed dodgerblue;
     border-radius: 5px;
+    padding: 0;
+    justify-content: center;
+    padding: 20px;
+
 }
 section.col-9 section.row {
     border: 1px solid dodgerblue;
