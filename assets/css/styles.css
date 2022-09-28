@@ -1,12 +1,15 @@
 /* Body Styling */
 body {
     font-family:cursive;
+    letter-spacing: .1rem;
+    font-weight: bold;
 }
 
 /* Header styling */
 header {
-    background-color:dodgerblue;
-    color: white;
+    background-color:rgb(0, 98, 196);
+    color:  white;
+    text-shadow: 0px 0px 5px white;
     padding: 15px 0px ;
     width: 100%;
 }
@@ -22,6 +25,7 @@ header h1 {
 section.row h2{
     margin: 15px;
     padding: 10px;
+    text-shadow: 0px 0px 2.5px black;
 }
 section.row h3{
     margin: 15px;
@@ -30,6 +34,7 @@ section.row h3{
 section.row h5{
     margin: 10px;
     padding: 5px;
+    text-shadow: 0px 0px 2.5px white;
 }
 section.row h6{
     margin: 10px;
@@ -41,9 +46,18 @@ section.row h6{
     padding: 10px;
     border-radius: 5px;
 }
+#searchBtn {
+    background-color: rgb(25,135,84);
+    color: white;
+}
+#searchBtn:hover {
+    background-color: white;
+    color: rgb(25,135,84);
+}
+
 
 .forecastDay {
-    background-color: dodgerblue;
+    background-color: rgb(0, 98, 196);
     color: white;
     margin: 10px;
     border-radius: 5px;
@@ -66,18 +80,26 @@ section.col-3 div {
     justify-content: center;
 }
 section.col-3 {
-    border-right: 3px dashed dodgerblue;
+    border-right: 3px dashed rgb(0, 98, 196);
     border-radius: 5px;
     padding: 0;
     justify-content: center;
     padding: 20px;
-
+    
 }
 section.col-9 section.row {
-    border: 1px solid dodgerblue;
+    box-shadow:  0px 0px 10px .4em white;
     border-radius: 5px;
     margin: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+section.col-9 {
+
+    background: url(https://as1.ftcdn.net/v2/jpg/01/21/80/16/1000_F_121801600_CMAfgueYYBiq0w88E1r5Lkklp7Hl1AO4.jpg);
 }
 section .col-3{
     padding: 0
+}
+ul.row {
+    padding: 1em;
 }

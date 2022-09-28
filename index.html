@@ -32,15 +32,17 @@
                 <input id="searchInput" type="text" placeholder="Enter City">
             </div>
             <div class="row">
-                <button type="button" class="btn btn-outline-success" id="searchBtn">Search</button>
+                <button type="button" class="btn btn-outline-success" id="searchBtn"
+                    style="letter-spacing: .1rem;">Search</button>
             </div>
+            <ul class=" row" id="savedItems"></ul>
         </section>
         <!-- searched or clicked city's information -->
         <section class="col-9">
-            <section class="row">
+            <section class="row" style="margin-bottom: 40px; margin-top: 40px">
                 <h2><span id="searchCity">City</span><span id="searchDate"></span><span id="icon"></span></h2>
-                <h3>Temp: <span id="temp"></span></h3>
-                <h3>Wind: <span id="wind"></span></h3>
+                <h3>Temperature: <span id="temp"></span></h3>
+                <h3>Air Current: <span id="wind"></span></h3>
                 <h3>Humidity: <span id="humidity"></span></h3>
             </section>
             <!-- city and 5 day forecast container  -->
